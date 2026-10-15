@@ -1,0 +1,14 @@
+liufencn/flarum-user-delete — 后台「删除用户」入口（Flarum 扩展）
+=================================================================
+
+Built on Flarum (MIT License, https://flarum.org). This extension
+only injects a frontend button into the admin EditUserModal; all
+deletion capability (DELETE /api/users/{id}, UserPolicy, canDelete
+serialization) already ships with Flarum core.
+
+Copyright (c) 2026 Liufen <792818521@qq.com>
+
+Licensed under the GNU Affero General Public License v3.0 or later
+(see LICENSE). You may use, modify and redistribute this extension,
+including commercially, but if you run a modified version as a network
+service you must release your changes under the same license.

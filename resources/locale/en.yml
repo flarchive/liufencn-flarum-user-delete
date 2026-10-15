@@ -1,0 +1,4 @@
+liufencn-user-delete:
+  admin:
+    delete_button: Delete User
+    confirm_button: Confirm deletion? This cannot be undone

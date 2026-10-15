@@ -1,0 +1,27 @@
+{
+    "name": "liufencn/flarum-user-delete",
+    "description": "后台用户管理补回「删除用户」入口：Flarum 2.0 核心的编辑用户弹窗移除了删除按钮，但后端 DELETE /api/users/{id} 与 canDelete 字段仍在。本扩展在 EditUserModal 注入一个两步确认的删除按钮。",
+    "type": "flarum-extension",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Liufen",
+            "email": "792818521@qq.com",
+            "homepage": "https://bbs.cathi.cn"
+        }
+    ],
+    "require": {
+        "flarum/core": "^2.0.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "删除用户入口",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-user-slash",
+                "backgroundColor": "#c0392b",
+                "color": "#fff"
+            }
+        }
+    }
+}
